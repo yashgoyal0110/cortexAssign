@@ -7,7 +7,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "inngest-dev" : "npx ingest-cli@latest dev"
   },
   "dependencies": {
     "@inngest/agent-kit": "^0.8.0",
